@@ -5307,7 +5307,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     padding-right: 0;
     padding-left: 0;
     border-radius: 0;
-    background-image: url(https://acertaintea.github.io/friction/img/FRICTION%20WALLPAPER.jpg);
+    background-image: url(https://friction.baby/img/FRICTION%20WALLPAPER.jpg);
     background-size: 100px 200
 &%;
     background-repeat: repeat-y;
@@ -10285,6 +10285,8 @@ a.text-dark:hover, a.text-dark:focus {
     height: auto;
 }
 .launch {
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+    font-size: 639.2%;
 }
 .ART {
     padding-left: 15%;
