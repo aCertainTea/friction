@@ -632,6 +632,7 @@ pre code {
     max-width: 540px;
 	  font-size:.6em;
   }
+  .row-cols-4 {max-width:100%;}
 }
 
 @media (min-width:918px){
