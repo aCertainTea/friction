@@ -630,7 +630,7 @@ pre code {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
-	  font-size:.5em;
+	  font-size:.8em;
   }
 }
 
@@ -691,7 +691,7 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     clear: both;
-    width: 99%;
+/*    width: 100%; */
     text-align: center;
     min-width: 50px;
     min-height: 50px;
@@ -721,7 +721,6 @@ pre code {
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
-    width: 0%;
 }
 
 .col {
@@ -10443,15 +10442,17 @@ a.text-dark:hover, a.text-dark:focus {
     background-image: -moz-linear-gradient(270deg,rgba(255,131,51,0.85) 0%,rgba(190,169,138,0.00) 100%);
     background-image: -o-linear-gradient(270deg,rgba(255,131,51,0.85) 0%,rgba(190,169,138,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(255,131,51,0.85) 0%,rgba(190,169,138,0.00) 100%);
-    margin-left: 21px;
+    margin: 0;
     display: block;
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-box-shadow: inset 17px 0px 44px 19px #2A1100;
     box-shadow: inset 17px 0px 44px 19px #2A1100;
-    margin-bottom: -12px;
+   
     min-height: 51px;
-    min-width: 0px;
+    min-width: 51px;
+    max-height:200px;
+    max-width:200px;
 }
 .width {
     width: 80%;
@@ -10477,7 +10478,7 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: center;
     align-content: center;
     align-items: center;
-    text-transform: uppercase;
+    text-transform: uppercase;	
     font-size: 3.2rem;
     border-left: 2px solid #31160A;
     border-right: 1px solid #6A2F14;
@@ -10491,6 +10492,7 @@ a.text-dark:hover, a.text-dark:focus {
     overflow-y: hidden;
     -webkit-box-shadow: inset 0px 0px 49px #000000;
     box-shadow: inset 0px 0px 49px #000000;
+    max-width:200px;
 }
 .listings {
     font-size: 2.8rem;
