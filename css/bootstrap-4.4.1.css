@@ -620,9 +620,10 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.col-md-4.col-lg-2 .DJ #ridss {
+.col-md-4.col-lg-2 .DJ{
     width: auto;
-    min-height: 0px;
+    min-height: 50px;
+    min-width: 50px;
     margin-top: 0px;
     overflow-x: hidden;
 }
@@ -632,7 +633,6 @@ pre code {
     max-width: 540px;
 	  font-size:.6em;
   }
-  .row-cols-4 {max-width:100%;}
 }
 
 @media (min-width:918px){
@@ -752,8 +752,11 @@ pre code {
 
 .row-cols-4 > * {
   -ms-flex: 0 0 25%;
-  flex: 0 0 25%;
-  max-width: 25%;
+  flex: 0 0 25%; 
+    max-width: 20.667%;
+    float: left;
+    clear: none;
+  }
 }
 
 .row-cols-5 > * {
@@ -1230,8 +1233,9 @@ pre code {
   .col-md-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
-    max-width: 23.333%;
-    min-width: 22%;
+       max-width: 20.667%;
+    float: left;
+    clear: none;
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
@@ -1387,7 +1391,10 @@ pre code {
   .row-cols-lg-2 > * {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 50%;    
+    max-width: 20.667%;
+    float: left;
+    clear: none;
   }
   .row-cols-lg-3 > * {
     -ms-flex: 0 0 33.333333%;
@@ -1397,7 +1404,7 @@ pre code {
   .row-cols-lg-4 > * {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
-    max-width: 25%;
+   
   }
   .row-cols-lg-5 > * {
     -ms-flex: 0 0 20%;
