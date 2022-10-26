@@ -525,8 +525,8 @@ mark,
 }
 
 .DJ img {
-    width: auto;
     height: 16rem;
+    min-height: 0px;
 }
 
 .img-fluid {
@@ -541,7 +541,7 @@ mark,
     padding-top: 0px;
     max-width: none;
     height: 87%;
-    width: 0%;
+    width: 87%;
 }
 
 .img-thumbnail {
@@ -694,7 +694,7 @@ pre code {
     width: 99%;
     text-align: center;
     min-width: 50px;
-    min-height: 300px;
+    min-height: 50px;
     float: none;
     display: block;
     margin-top: 0rem;
@@ -5387,6 +5387,8 @@ a.badge-dark:focus, a.badge-dark.focus {
     padding-left: 0;
     border-radius: 0;
     background-image: url(https://friction.baby/img/FRICTION%20WALLPAPER.jpg);
+    background-size: 100px 200
+&%;
     background-repeat: repeat-y;
     background-size: 100% auto;
 }
@@ -10404,7 +10406,7 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: left;
     font-variant: normal;
     font-weight: bold;
-     margin: 5% ;
+     margin: 5%;
     display: block;
 }
 .DATE {
@@ -10448,7 +10450,8 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-box-shadow: inset 17px 0px 44px 19px #2A1100;
     box-shadow: inset 17px 0px 44px 19px #2A1100;
     margin-bottom: -12px;
-    min-height: 0%;
+    min-height: 51px;
+    min-width: 0px;
 }
 .width {
     width: 80%;
@@ -10472,7 +10475,6 @@ a.text-dark:hover, a.text-dark:focus {
     padding-left: 14px;
     padding-bottom: 14px;
     text-align: center;
-    width: 88%;
     align-content: center;
     align-items: center;
     text-transform: uppercase;
@@ -10487,7 +10489,6 @@ a.text-dark:hover, a.text-dark:focus {
     background-image: linear-gradient(153deg,rgba(23,11,3,0.81) 1.14%,rgba(136,58,9,0.74) 38.91%,rgba(70,26,9,0.00) 91.05%);
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 80px;
     -webkit-box-shadow: inset 0px 0px 49px #000000;
     box-shadow: inset 0px 0px 49px #000000;
 }
@@ -10510,5 +10511,5 @@ a.text-dark:hover, a.text-dark:focus {
     width: 35%;
     height: auto;
     left: 5%;
+    min-width: 50px;
 }
-
