@@ -627,21 +627,21 @@ pre code {
     overflow-x: hidden;
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
   .container {
     max-width: 540px;
-	  font-size:.8em;
+	  font-size:.6em;
   }
 }
 
-@media (min-width : 918px ){
+@media (min-width:918px){
   .container {
     max-width: 720px;
 	  font-size:.8em;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
   .container {
     max-width: 960px;
 	  font-size:.9em;
