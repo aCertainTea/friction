@@ -63,7 +63,7 @@ html { font-size: 75%; }
 body {
     margin: 0;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    font-size: 1em; 
+    font-size: 1em;
     font-weight: normal;
     color: #FFFFFF;
     text-align: center;
@@ -72,6 +72,7 @@ body {
     line-height: 2em;
     width: 100%;
     min-height: 1200px;
+    height: auto;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -103,6 +104,7 @@ p {
     margin-left: 0px;
     clear: left;
     line-height: 1.5em;
+
 }
 
 abbr[title],
@@ -228,7 +230,7 @@ figure {
 
 img {
     border-style: none;
-    width: 100%;
+    width: 124%;
     left: -29px;
 }
 
@@ -394,7 +396,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 500;
-    line-height: 0.5rem;
+    line-height: 7.5rem;
     /* [disabled]font-size: 5rem; */
     /* [disabled]width: 100%; */
     margin-top: 1rem;
@@ -411,13 +413,14 @@ h1, .h1 {
 
 h2, .h2 {
     text-shadow: 10px 5px 9px #291F12;
-    letter-spacing: 0.25rem;
+    letter-spacing: 21%;
     margin-bottom: 4rem;
 }
 
 h3, .h3 {
     font-size: 2.2rem;
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    overflow-y: visible;
 }
 
 h4, .h4 {
@@ -521,6 +524,11 @@ mark,
   content: "\2014\00A0";
 }
 
+.DJ img {
+    width: auto;
+    height: 16rem;
+}
+
 .img-fluid {
     font-size: medium;
     -webkit-box-shadow: 0px 0px;
@@ -528,10 +536,12 @@ mark,
     position: static;
     clear: none;
     float: none;
-    min-height: 0px;
     margin-top: -14px;
     margin-bottom: 16px;
     padding-top: 0px;
+    max-width: none;
+    height: 87%;
+    width: 0%;
 }
 
 .img-thumbnail {
@@ -560,11 +570,6 @@ mark,
 logos {
 	align-content: center
 		
-}
-#ridss {
-    position: relative;
-    top: -30px;
-    left: -28px;
 }
 
 code {
@@ -619,29 +624,34 @@ pre code {
     width: auto;
     min-height: 0px;
     margin-top: 0px;
+    overflow-x: hidden;
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+	  font-size:.5em;
   }
 }
 
 @media (min-width : 918px ){
   .container {
     max-width: 720px;
+	  font-size:.8em;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+	  font-size:.9em;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+	  font-size:1em;
   }
 }
 
@@ -5377,8 +5387,6 @@ a.badge-dark:focus, a.badge-dark.focus {
     padding-left: 0;
     border-radius: 0;
     background-image: url(https://friction.baby/img/FRICTION%20WALLPAPER.jpg);
-    background-size: 100px 200
-&%;
     background-repeat: repeat-y;
     background-size: 100% auto;
 }
@@ -10126,7 +10134,6 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
-    height: auto;
 }
 
 .text-capitalize {
@@ -10356,16 +10363,27 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .launch {
     font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
-    font-size: 8rem;
-    word-spacing: 0rem;
-    letter-spacing: 1.2rem;
-    padding: 20px;
+    font-size: 650%;
+    padding-right: 20px;
     margin-bottom: 0.7px;
     margin-top: 0.4em;
     text-transform: uppercase;
+    width: 40%;
+    display: block;
+    margin-left: 30%;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    overflow-x: hidden;
+    height: 8rem;
+    letter-spacing: 0.2em;
+    overflow: hidden;
 }
 .ART {
-    padding: 20;
+    padding-top: 2%;
+    /* [disabled]padding-right: 6%; */
+    padding-left: 6%;
+    /* [disabled]padding-bottom: 6%; */
     font-size: 2rem;
     text-shadow: 3px 4px 7px #000000;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -10374,6 +10392,7 @@ a.text-dark:hover, a.text-dark:focus {
     background-image: -o-linear-gradient(270deg,rgba(176,89,17,0.24) 0%,rgba(227,106,48,0.67) 25.62%,rgba(229,107,49,1.00) 26.47%,rgba(77,33,15,0.62) 28.57%,rgba(173,63,11,0.71) 38.14%,rgba(178,103,20,0.00) 99.94%);
     background-image: linear-gradient(180deg,rgba(176,89,17,0.24) 0%,rgba(227,106,48,0.67) 25.62%,rgba(229,107,49,1.00) 26.47%,rgba(77,33,15,0.62) 28.57%,rgba(173,63,11,0.71) 38.14%,rgba(178,103,20,0.00) 99.94%);
     line-height: 1.4;
+    display: block;
 }
 .SOuncool {
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
@@ -10383,17 +10402,22 @@ a.text-dark:hover, a.text-dark:focus {
     word-spacing: -2.5px;
     color: #232840;
     text-align: left;
-    padding-left: 131px;
     font-variant: normal;
     font-weight: bold;
-    margin-top: -26px;
+     margin: 5% ;
+    display: block;
 }
 .DATE {
     /* [disabled]word-spacing: normal; */
     font-size: 3rem;
-    margin-top: 106px;
+    margin-top: 3rem;
     display: block;
     margin-bottom: -5px;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    width: 45%;
+    margin-left: 25%;
 }
 .FEATR {
     word-spacing: normal;
@@ -10401,6 +10425,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 2rem;
     display: block;
     margin-bottom: 25px;
+    margin-left: 25%;
+    width: 54%;
 }
 .deets {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -10409,7 +10435,7 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 1.5rem;
 }
 .DJ {
-    border-radius: 200px;
+    border-radius: 12rem;
     border: 6px solid #522C0F;
     background-image: -webkit-linear-gradient(270deg,rgba(255,131,51,0.85) 0%,rgba(190,169,138,0.00) 100%);
     background-image: -moz-linear-gradient(270deg,rgba(255,131,51,0.85) 0%,rgba(190,169,138,0.00) 100%);
@@ -10419,16 +10445,10 @@ a.text-dark:hover, a.text-dark:focus {
     display: block;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 180px;
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    width: 180px;
     -webkit-box-shadow: inset 17px 0px 44px 19px #2A1100;
     box-shadow: inset 17px 0px 44px 19px #2A1100;
-    min-height: 0px;
-    min-width: nanpx;
     margin-bottom: -12px;
+    min-height: 0%;
 }
 .width {
     width: 80%;
@@ -10448,46 +10468,47 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 2rem;
 }
 .bill {
-    padding-top: 10px;
     padding-right: 14px;
     padding-left: 14px;
     padding-bottom: 14px;
-    margin-top: 7%;
-    /* [disabled]min-width: 21%; */
     text-align: center;
-    width: 200px;
+    width: 88%;
     align-content: center;
     align-items: center;
     text-transform: uppercase;
     font-size: 3.2rem;
-    border-left: 1px solid #773112;
-    border-right: 2px solid #6A2F14;
-    border-bottom: 2px solid #9F512E;
-    border-top: 1px solid #522A18;
-    background-image: -webkit-linear-gradient(270deg,rgba(58,23,2,0.88) 0%,rgba(60,24,2,0.70) 53.77%,rgba(70,26,9,0.00) 95.17%);
-    background-image: -moz-linear-gradient(270deg,rgba(58,23,2,0.88) 0%,rgba(60,24,2,0.70) 53.77%,rgba(70,26,9,0.00) 95.17%);
-    background-image: -o-linear-gradient(270deg,rgba(58,23,2,0.88) 0%,rgba(60,24,2,0.70) 53.77%,rgba(70,26,9,0.00) 95.17%);
-    background-image: linear-gradient(180deg,rgba(58,23,2,0.88) 0%,rgba(60,24,2,0.70) 53.77%,rgba(70,26,9,0.00) 95.17%);
+    border-left: 2px solid #31160A;
+    border-right: 1px solid #6A2F14;
+    border-bottom: 1px solid #EFD4C8;
+    border-top: 1px solid #3A1F02;
+    background-image: -webkit-linear-gradient(297deg,rgba(23,11,3,0.81) 1.14%,rgba(136,58,9,0.74) 38.91%,rgba(70,26,9,0.00) 91.05%);
+    background-image: -moz-linear-gradient(297deg,rgba(23,11,3,0.81) 1.14%,rgba(136,58,9,0.74) 38.91%,rgba(70,26,9,0.00) 91.05%);
+    background-image: -o-linear-gradient(297deg,rgba(23,11,3,0.81) 1.14%,rgba(136,58,9,0.74) 38.91%,rgba(70,26,9,0.00) 91.05%);
+    background-image: linear-gradient(153deg,rgba(23,11,3,0.81) 1.14%,rgba(136,58,9,0.74) 38.91%,rgba(70,26,9,0.00) 91.05%);
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 14px;
+    height: 80px;
+    -webkit-box-shadow: inset 0px 0px 49px #000000;
+    box-shadow: inset 0px 0px 49px #000000;
 }
 .listings {
-    padding: 10px 140px;
-    text-align: left;
+    font-size: 2.8rem;
+    margin: 5% 2%;
+    text-align:left;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-    font-size: 2.7rem;
+    display: block;
+    width: 80%;
 }
 .tix {
-    margin: 10px 20px;
-	display: block;
-	position: relative;
-	float: left;
-	padding-left: 120px;
-	
-	
+     margin: 0% 2%;
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 6%;	
 }
 .logo {
     width: 35%;
     height: auto;
+    left: 5%;
 }
+
